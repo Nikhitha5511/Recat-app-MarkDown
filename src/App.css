@@ -1,0 +1,49 @@
+.notes-panel{
+  width:240px;
+  background-color: rgb(248, 241, 241);
+  height:100vh;
+  border:2px solid black;
+}
+.markdown-editor{
+  display:flex;
+
+}
+.main-panel{
+  background-color: rgb(248, 241, 241);
+  width:100%;
+}
+textarea{
+margin:60px auto;
+}
+.preview {
+  width: 96%;
+  height:90%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px;
+  color: #000; 
+}
+
+.text{
+  font-size: 26px;
+  font-weight: bold;
+ margin:10px 10px;
+ 
+}
+.leftButton{
+  border:none;
+  border-radius: 50%;
+  background-color: blue;
+  width:25px;
+  height:25px;
+  color:white;
+  font-weight: bold;
+  font-size: 21px;
+}
+.trash{
+  border:none;
+  background: none;
+  color:white;
+  font-size: 20px;
+  margin-left:8px;
+}
